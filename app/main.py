@@ -15,7 +15,7 @@ def index():
     )
 
     return {
-        'color': '#abcdcb',
+        'color': '#00ff01',
         'head': head_url
     }
 
@@ -52,6 +52,8 @@ def end():
     return {
         'taunt': 'battlesnake-python!'
     }
+
+
 
 
 # Expose WSGI app (so gunicorn can find it)
